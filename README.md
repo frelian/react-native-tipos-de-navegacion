@@ -10,4 +10,5 @@
     * yarn add @react-navigation/stack
 
 * 104. Navegar en otras pantallas
-    
+
+* 105. Mejorando el Stack Navigator
