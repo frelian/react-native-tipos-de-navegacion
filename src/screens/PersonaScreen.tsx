@@ -16,6 +16,8 @@ export const PersonaScreen = ( { route, navigation }: Props ) => {
         })
     }, [])
 
+    console.log(route,"<------");
+
     return (
         <View style={ styles.globalMargin }>
             <Text style={ styles.title }>
