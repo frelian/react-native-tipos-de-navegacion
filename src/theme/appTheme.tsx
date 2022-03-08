@@ -13,6 +13,20 @@ export const styles = StyleSheet.create({
         backgroundColor: "#f8f9fa",
         padding: 10
     },
+    bigButton: {
+
+        alignItems: "center",
+        backgroundColor: "#e1bee7",
+        borderRadius: 20,
+        justifyContent: 'center',
+        height: 100,
+        width: 100,
+        marginRight: 10,
+    },
+    textBigButton: {
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
     spaces: {
         marginTop: 50
     }
