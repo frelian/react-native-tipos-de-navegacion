@@ -31,12 +31,25 @@ export const styles = StyleSheet.create({
         marginTop: 50
     },
     avatar: {
-        width: 150,
-        height: 150,
+        width: 100,
+        height: 100,
         borderRadius: 100,
     },
     avatarContainer: {
         alignItems: 'center',
         marginTop: 20,
+    },
+    menuContainer: {
+        marginVertical: 30,
+        // marginHorizontal: 80,
+        alignItems: 'center',
+    },
+    menuBoton: {
+        marginVertical: 10,
+
+    },
+    menuTexto: {
+        fontSize: 20,
+        color: 'black',
     }
 })
