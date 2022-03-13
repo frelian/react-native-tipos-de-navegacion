@@ -25,7 +25,7 @@
     * Tambien el codigo para dejar fijo el menu en landscape tambien cambio.
 #### 112. Drawer personalizado
     * Poner una image avatar en el menu, asi como la anterior clase hay cambios de versiones de librerias, en la version
-        de la case es const const MenuInterno = ( { navigation }: DrawerContentComponentProps<DrawerContentOptions>) => {... y como es acualmente 
+        de la case es const MenuInterno = ( { navigation }: DrawerContentComponentProps<DrawerContentOptions>) => {... y como es acualmente 
         const MenuInterno = ( props: DrawerContentComponentProps ) => {...
 #### 113. Navegar desde el MenuLateral personalizado
     * Tenia un error en <Drawer.Screen name="settingsScreen" ya que estaba navegando en el Menu lateral con mayusculas settingsScreen
