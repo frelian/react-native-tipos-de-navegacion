@@ -11,12 +11,28 @@ import { StackNavigator } from './StackNavigator';
 import { SettingsScreen } from '../screens/SettingsScreen';
 import {Image, Text, TouchableOpacity, useWindowDimensions, View} from 'react-native';
 import {styles} from "../theme/appTheme";
+import {createStackNavigator} from "@react-navigation/stack";
 
 const Drawer = createDrawerNavigator();
 
 export const MenuLateral = () => {
 
   const { width } = useWindowDimensions();
+
+  /* Fix para IOs en el Drawer.Screen cambiar por SettingsStackScreen
+    <Drawer.Screen   name="SettingsScreen" component={SettingsStackScreen}  />
+  const Stack = createStackNavigator();
+  const SettingsStackScreen = () => {
+    return (
+      <Stack.Navigator>
+        <Stack.Screen
+          name="SettingsScreen"
+          component={ SettingsScreen }
+        />
+      </Stack.Navigator>
+    )
+  }
+  */
 
   return (
     <Drawer.Navigator

@@ -3,7 +3,7 @@ import { Button, Text, View, TouchableOpacity } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { styles } from '../theme/appTheme';
 
-/* 
+/*
     StackScreenProps pide 2 argumentos
     1. Un objeto
     2. Que especifique las propiedades que puede tener ese objeto
@@ -11,7 +11,6 @@ import { styles } from '../theme/appTheme';
 interface Props extends StackScreenProps<any, any>{};
 
 export const Pagina1Screen = ( { navigation }: Props ) => {
-
 
     return (
         <View style={ styles.globalMargin }>
@@ -23,8 +22,12 @@ export const Pagina1Screen = ( { navigation }: Props ) => {
             />
 
             <View style={ styles.spaces } />
-            
-            <Text>Navegar con argumentos</Text>
+
+            <Text style={{
+              marginVertical: 10,
+              fontSize: 20,
+              marginLeft: 5
+            }} >Navegar con argumentos:</Text>
             <View style={{ flexDirection: 'row' }}>
                 <TouchableOpacity
                     style={{

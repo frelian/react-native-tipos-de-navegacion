@@ -31,3 +31,6 @@
     * Tenia un error en <Drawer.Screen name="settingsScreen" ya que estaba navegando en el Menu lateral con mayusculas settingsScreen
     * Mejoras de diseño
     * Funcion para navegar entre screens
+#### 114. useSafeAreaInserts
+    * Fix para IOs ya que el Notch interfiere en el diseño se usa el Hook useSafeAreaInsets(), agregado en SettingsScreen
+    * Mejoras pequeñas de diseño en Pagina1Screen
