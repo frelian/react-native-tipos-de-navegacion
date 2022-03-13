@@ -23,3 +23,8 @@
     * Ya que el icono de hamburguesa en la actual vesion se muestra, en la anterior se tenia que hacer
         como aparece en el archivo Pagina1Screen_boton-menu.tsx entonces no es necesario parte de la clase.
     * Tambien el codigo para dejar fijo el menu en landscape tambien cambio.
+#### 112. Drawer personalizado
+    * Poner una image avatar en el menu, asi como la anterior clase hay cambios de versiones de librerias, en la version
+        de la case es const const MenuInterno = ( { navigation }: DrawerContentComponentProps<DrawerContentOptions>) => {... y como es acualmente 
+        const MenuInterno = ( props: DrawerContentComponentProps ) => {...
+
