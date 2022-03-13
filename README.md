@@ -19,3 +19,7 @@
     * https://reactnavigation.org/docs/drawer-navigator/
     * Instalar: yarn add @react-navigation/drawer
     * Instalar: yarn add react-native-reanimated
+#### 111. Toggle Drawer - Mostra / Ocultar
+    * Ya que el icono de hamburguesa en la actual vesion se muestra, en la anterior se tenia que hacer
+        como aparece en el archivo Pagina1Screen_boton-menu.tsx entonces no es necesario parte de la clase.
+    * Tambien el codigo para dejar fijo el menu en landscape tambien cambio.
