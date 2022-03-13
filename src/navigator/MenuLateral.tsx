@@ -2,7 +2,6 @@ import React from 'react';
 import {
   createDrawerNavigator,
   DrawerContentComponentProps,
-  DrawerContentOptions,
   DrawerContentScrollView
 } from '@react-navigation/drawer';
 
