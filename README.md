@@ -34,3 +34,6 @@
 #### 114. useSafeAreaInserts
     * Fix para IOs ya que el Notch interfiere en el diseño se usa el Hook useSafeAreaInsets(), agregado en SettingsScreen
     * Mejoras pequeñas de diseño en Pagina1Screen
+#### 121. Crear el BottomTabNavigator
+    * Requisito instalar: yarn/npm add @react-navigation/bottom-tabs
+    * Instalacion y configuracion de bottom-tabs
