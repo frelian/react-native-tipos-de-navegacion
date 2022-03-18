@@ -42,3 +42,6 @@
     * Agregado una seccion de colores en src/themes/appThemes.tsx
 #### 123. Preparar el espacio para el icono
     * Nuevo de codigo React Navigator 6 en screenOptions vs route
+#### 124. Material Button Tab Navigator
+    * Instalado: @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
+    * Implementacion de tabs Android y IOs usando createMaterialBottomTabNavigator (Material design)
