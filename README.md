@@ -40,3 +40,5 @@
 #### 122. Personalizando el BottomTabNavigator
     * Atributo de <Tab.Navigator en la version paso de tabBarOptions a screenOptions
     * Agregado una seccion de colores en src/themes/appThemes.tsx
+#### 123. Preparar el espacio para el icono
+    * Nuevo de codigo React Navigator 6 en screenOptions vs route
