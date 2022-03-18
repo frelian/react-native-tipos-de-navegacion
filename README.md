@@ -37,3 +37,6 @@
 #### 121. Crear el BottomTabNavigator
     * Requisito instalar: yarn/npm add @react-navigation/bottom-tabs
     * Instalacion y configuracion de bottom-tabs
+#### 122. Personalizando el BottomTabNavigator
+    * Atributo de <Tab.Navigator en la version paso de tabBarOptions a screenOptions
+    * Agregado una seccion de colores en src/themes/appThemes.tsx
