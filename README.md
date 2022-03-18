@@ -45,3 +45,7 @@
 #### 124. Material Button Tab Navigator
     * Instalado: @react-navigation/material-bottom-tabs react-native-paper react-native-vector-icons
     * Implementacion de tabs Android y IOs usando createMaterialBottomTabNavigator (Material design)
+#### 125. Material Top Tab Navigator
+    * Instalado: yarn add @react-navigation/material-top-tabs react-native-tab-view
+    * A la fecha 18 Marzo 2022 genera error porque el react-native-pager-view no se instala, solucion:
+    * yarn add react-native-pager-view
