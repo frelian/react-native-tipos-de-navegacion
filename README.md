@@ -49,3 +49,6 @@
     * Instalado: yarn add @react-navigation/material-top-tabs react-native-tab-view
     * A la fecha 18 Marzo 2022 genera error porque el react-native-pager-view no se instala, solucion:
     * yarn add react-native-pager-view
+#### 126. Perzonalizando el Material Top Tab Navigator
+    * El codigo de los estilos (opciones) cambio respecto a otras versiones y de agregar la seccion de los iconos es 
+        igual que las tabs.
