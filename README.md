@@ -52,3 +52,8 @@
 #### 126. Perzonalizando el Material Top Tab Navigator
     * El codigo de los estilos (opciones) cambio respecto a otras versiones y de agregar la seccion de los iconos es 
         igual que las tabs.
+#### 127. Instalacion iconos al proyecto Android
+    * Instalado: https://github.com/oblador/react-native-vector-icons#android
+    * Editado android/app/build.gradle
+    * Luego de la instalacion y configuracion hay que cerrar todo y volver a iniciar metro como la compilacion...
+    * Instalado npm i --save-dev @types/react-native-vector-icons para evitar el warning de TS vs los iconos
