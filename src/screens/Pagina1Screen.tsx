@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Text, View, TouchableOpacity } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { styles } from '../theme/appTheme';
+import Icon from "react-native-vector-icons/Ionicons";
 
 /*
     StackScreenProps pide 2 argumentos
@@ -39,7 +40,8 @@ export const Pagina1Screen = ( { navigation }: Props ) => {
                         nombre: "Pedro"
                     }) }
                 >
-                    <Text style={ styles.textBigButton }>Pedro</Text>
+                  <Icon name={ 'body-outline' } size={35} color="white" />
+                  <Text style={ styles.textBigButton }>Pedro</Text>
 
                 </TouchableOpacity>
                 <TouchableOpacity
@@ -49,6 +51,7 @@ export const Pagina1Screen = ( { navigation }: Props ) => {
                         nombre: "Maria"
                     }) }
                 >
+                    <Icon name={ 'woman-outline' } size={35} color="white" />
                     <Text style={ styles.textBigButton }>Maria</Text>
                 </TouchableOpacity>
             </View>

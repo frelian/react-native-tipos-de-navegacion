@@ -57,3 +57,4 @@
     * Editado android/app/build.gradle
     * Luego de la instalacion y configuracion hay que cerrar todo y volver a iniciar metro como la compilacion...
     * Instalado npm i --save-dev @types/react-native-vector-icons para evitar el warning de TS vs los iconos
+#### 129. Agregando iconos a todo lugar
